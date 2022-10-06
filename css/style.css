@@ -971,6 +971,9 @@ body.light-theme{
   .nav__menu{
     padding: 1rem 1.5rem;
   }
+  .nav__link{
+    font-size: var(--smaller-font-size);
+  }
   .home__buttons{
     flex-direction: column;
   }
@@ -1002,7 +1005,7 @@ body.light-theme{
 /* For medium devices */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .nav__menu{
-    width: 828px;
+    width: 728px;
     left: 0;
     right: 0;
     margin: 0 auto;
