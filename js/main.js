@@ -55,7 +55,7 @@ function activeWork(){
 linkWork.forEach(l => l.addEventListener('click', activeWork))
 
 /*=============== SWIPER TESTIMONIAL ===============*/
-let swiperTestimonial = new Swiper(".testimonial__container", {
+let swiperTestimonial = new Swiper(".properties_container", {
     spaceBetween: 24,
     loop: true,
     grabCursor: true,
@@ -72,7 +72,7 @@ let swiperTestimonial = new Swiper(".testimonial__container", {
           spaceBetween: 48,
         },
         1024: {
-            slidesPerView: 1,
+            slidesPerView: 2,
             spaceBetween: 48,
           },
       },
