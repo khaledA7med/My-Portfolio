@@ -353,7 +353,7 @@ body.light-theme {
 }
 
 .home__img {
-  width: 200px;
+  width: 700px !important;
 }
 
 .home__handle {
@@ -492,16 +492,6 @@ body.light-theme {
   align-items: center;
 }
 
-.about__img {
-  width: 220px;
-  border-radius: 1.5rem;
-  -webkit-border-radius: 1.5rem;
-  -moz-border-radius: 1.5rem;
-  -ms-border-radius: 1.5rem;
-  -o-border-radius: 1.5rem;
-  justify-self: center;
-}
-
 .about__data {
   text-align: center;
 }
@@ -529,6 +519,11 @@ body.light-theme {
   margin-bottom: 0.5rem;
 }
 
+.about_button {
+  display: flex;
+  justify-content: center;
+}
+
 .about__title {
   font-size: var(--small-font-size);
 }
@@ -539,7 +534,9 @@ body.light-theme {
 
 .about__description {
   margin-bottom: 2rem;
+  text-align: center;
 }
+
 
 /*=============== EXPERIENCE ===============*/
 .experience__container {
@@ -1031,6 +1028,11 @@ body.light-theme {
 
 .contact__form-area textarea {
   resize: none;
+}
+
+.contactUS_Button {
+  display: flex;
+  justify-content: center;
 }
 
 /*=============== FOOTER ===============*/
