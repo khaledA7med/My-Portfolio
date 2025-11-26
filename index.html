@@ -37,6 +37,11 @@
                         </a>
                     </li>
                     <li class="nav__item">
+                        <a href="#experience" class="nav__link">
+                            <i class='bx bx-briefcase'> Experience </i>
+                        </a>
+                    </li>
+                    <li class="nav__item">
                         <a href="#skills" class="nav__link">
                             <i class='bx bx-book'> Skills </i>
                         </a>
@@ -84,11 +89,13 @@
                 <div class="home__social">
                     <a href="https://www.linkedin.com/in/khaled-ahmed-4337741a1/" target="_blank"
                         class="home__social-link">
-                        <i class='bx bxl-linkedin-square'></i>
-                    </a>
-                    <a href="https://github.com/khaledA7med" target="_blank" class="home__social-link">
-                        <i class='bx bxl-github'></i>
-                    </a>
+                        <a href="https://www.linkedin.com/in/khaled-ahmed-4337741a1/" target="_blank"
+                            class="home__social-link">
+                            <i class='bx bxl-linkedin-square'></i>
+                        </a>
+                        <a href="https://github.com/khaledA7med" target="_blank" class="home__social-link">
+                            <i class='bx bxl-github'></i>
+                        </a>
                 </div>
                 <a href="#about" class="home__scroll">
                     <i class='bx bx-mouse home__scroll-icon'></i>
@@ -104,9 +111,7 @@
             <span class="section__subtitle">My Intro</span>
             <h2 class="section__title">About Me</h2>
 
-            <div class="about__container container grid">
-                <img src="img/About.jpg" alt="" class="about__img">
-
+            <div class="about__container container ">
                 <div class="about__data">
                     <div class="about__info">
                         <div class="about__box">
@@ -136,10 +141,60 @@
                         processes. Passionate about clean code, continuous learning, and staying updated with the latest
                         Angular best practices.
                     </p>
-                    <a href="#contact" class="button">Contact Me</a>
+                    <div class="about_button">
+                        <a href="#contact" class="button">Contact Me</a>
+                    </div>
                 </div>
             </div>
         </section>
+
+        <section class="experience section" id="experience">
+            <span class="section__subtitle">My Journey</span>
+            <h2 class="section__title">Experience</h2>
+
+            <div class="experience__container container">
+                <div class="experience__content">
+                    <!-- Experience Item 1 -->
+                    <div class="experience__item">
+                        <div class="experience__icon">
+                            <i class='bx bx-briefcase'></i>
+                        </div>
+                        <div class="experience__info">
+                            <h3 class="experience__title">Front-End Developer</h3>
+                            <span class="experience__company"><a style="color: cadetblue;" href="https://oasisoft.net/"
+                                    target="_blank">Oasis
+                                    Computer Systems Company</a> | Nov 2022 - Present</span>
+                            <p class="experience__description">
+                                • Front-end developer for Company Projects. <br>
+                                • Design new features in existing projects. <br>
+                                • Refactor existing projects. <br>
+                                • Support clients and help them achieve their requirements. <br><br>
+                                Tools: Microsoft Azure, Angular, Bootstrap, PrimeNG, Ag Grid API and RXJS.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- Experience Item 2 -->
+                    <div class="experience__item">
+                        <div class="experience__icon">
+                            <i class='bx bx-code-alt'></i>
+                        </div>
+                        <div class="experience__info">
+                            <h3 class="experience__title">Front-End Developer | Freelancer</h3>
+                            <span class="experience__company"><a style="color: cadetblue;"
+                                    href="https://www.gt-transports.com/en" target="_blank">GT Global Transport Services
+                                    GMBH</a> | July 2023 - Sep
+                                2023</span>
+                            <p class="experience__description">
+                                • Design new features in existing project. <br>
+                                • Refactor existing project. <br>
+                                Tools: Git/Github, Angular, Bootstrap, and RXJS.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
 
         <!--=============== SKILLS ===============-->
         <section class="skills section" id="skills">
@@ -298,7 +353,7 @@
         <!--=============== SERVICES ===============-->
         <section class="services section">
             <span class="section__subtitle">My Services</span>
-            <h2 class="section__title">Whay I Offer</h2>
+            <h2 class="section__title">What I Offer</h2>
 
             <div class="services__container container grid">
 
@@ -382,42 +437,6 @@
                         </div>
                     </div>
                 </div>
-
-                <div class="services__card">
-                    <h3 class="services__title">UI/UX <br> Designer</h3>
-                    <span class="services__button">
-                        See More <i class='bx bx-right-arrow-alt services__icon'></i>
-                    </span>
-
-                    <div class="services__modal">
-                        <div class="services__modal-content">
-                            <i class='bx bx-x services__modal-close'></i>
-                            <h3 class="services__modal-title">UI/UX Designer</h3>
-                            <p class="services__modal-description">
-                                Services with basics about UI/UX Design.
-                                I use it when I need it.
-                            </p>
-                            <ul class="services__modal-list">
-                                <li class="services__modal-item">
-                                    <i class='bx bx-check services__modal-icon'></i>
-                                    <p class="services__modal-info">Create user-centered designs.</p>
-                                </li>
-
-                                <li class="services__modal-item">
-                                    <i class='bx bx-check services__modal-icon'></i>
-                                    <p class="services__modal-info">Designing user flows and wireframes.</p>
-                                </li>
-
-                                <li class="services__modal-item">
-                                    <i class='bx bx-check services__modal-icon'></i>
-                                    <p class="services__modal-info">Creating user personas.</p>
-                                </li>
-
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
             </div>
         </section>
 
@@ -650,7 +669,9 @@
                                 class="contact__form-input"></textarea>
                         </div>
 
-                        <button class="button">Send Message</button>
+                        <div class="contactUS_Button">
+                            <button class="button">Send Message</button>
+                        </div>
                     </form>
                 </div>
             </div>
